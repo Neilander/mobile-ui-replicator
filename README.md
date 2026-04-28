@@ -4,6 +4,12 @@
 
 不是 Claude Code 的安装式 skill，是个**自带说明书的便携文件夹**——丢给 agent 一句"读 SKILL.md 干活"就行。
 
+## 最简单的用法
+
+📦 **[下载最新 zip](https://github.com/Neilander/mobile-ui-replicator/releases/latest/download/mobile-ui-replicator.zip)** → 解压到你的项目根目录 → 跟 agent 说一句"读 `ui-replicator-skill/SKILL.md`，自己装好开始用"，剩下交给它处理（依赖、key、流程它都会问你）。
+
+下面的章节是细节展开，看不进去也没关系，agent 会照着 SKILL.md 来。
+
 ## 它能干什么
 
 输入：
