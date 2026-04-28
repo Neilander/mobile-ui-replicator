@@ -40,7 +40,7 @@ pip install pillow scipy numpy
 GEMINI_API_KEY=PASTE_YOUR_GEMINI_KEY_HERE   ← 替换
 ```
 
-- Gemini key（免费档够用）: https://aistudio.google.com/apikey
+- Gemini key: https://aistudio.google.com/apikey
 
 **只需要这一个 key。** Agent 自己看图、写 HTML 用的是它本身的能力（你跟 Claude / Cursor / 任何 agent 对话时已经在用了），不需要单独的 Anthropic key。Gemini key 只给 `gen_image.py` 用来出图。
 
@@ -125,7 +125,3 @@ ui-replicator-skill/
 - **iOS 竖屏壳固定 390×844**——不做 Android、平板、横屏
 - **素材数量**约束在 ~10-15 张以内——超了 Gemini 限流，agent 会重试但拖时间
 - **map 类素材会拒绝在底图上画文字**——所有街道名、POI 标签走 CSS 叠加层（这是 feature 不是 bug，Gemini 写中文会乱码）
-
-## License
-
-随便用。
